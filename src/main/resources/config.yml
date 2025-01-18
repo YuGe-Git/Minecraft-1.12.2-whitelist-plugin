@@ -1,0 +1,24 @@
+# 白名单玩家列表
+whitelist: []
+
+# 插件设置
+settings:
+  short-command: "wl"  # 短指令配置
+
+# 消息配置
+messages:
+  plugin-enabled: "§a白名单插件已启用！"
+  plugin-disabled: "§c白名单插件已禁用！"
+  no-permission: "§c你没有权限使用这个命令！"
+  kick-message: "§c [ %player% ] \n你没有这个服务器的白名单!"
+  command-usage: "§c用法: /wlist <add|remove|reload|list> [玩家名]"
+  player-required: "§c请指定玩家名！"
+  player-already-whitelisted: "§e该玩家已在白名单中！"
+  player-not-whitelisted: "§e该玩家不在白名单中！"
+  player-added: "§a已将 %player% 添加到白名单。"
+  player-removed: "§a已将 %player% 从白名单中移除。"
+  whitelist-reloaded: "§a白名单已重新加载。"
+  unknown-command: "§c未知的子命令！使用方法: /wlist <add|remove|reload|list> [玩家名]"
+  list-header: "§a当前白名单玩家列表："
+  list-empty: "§e白名单为空"
+  list-format: "§f- %player%"

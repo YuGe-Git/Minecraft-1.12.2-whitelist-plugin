@@ -1,0 +1,14 @@
+name: YGWhitelist
+version: '1.0'
+main: org.yuge.ygwhitelistplugin
+api-version: '1.13'
+commands:
+  wlist:
+    description: 白名单管理命令
+    usage: "§c用法: /wlist <add|remove|reload|list> [玩家名]"
+    aliases: [wl]
+    permission: ygwhitelist.admin
+permissions:
+  ygwhitelist.admin:
+    description: 允许使用白名单管理命令
+    default: op
