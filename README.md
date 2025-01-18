@@ -4,7 +4,11 @@
 
 [English](#english) | [中文](#中文)
 
+> 测试环境：**Catserver** , **1.12.2**
+> 插件使用**Bukkit**/**Spigot**开发
+> 有问题和建议可以在 **Issues** 提交
 
+- config.yml 
 ```yml
 # 白名单玩家列表
 whitelist: []
